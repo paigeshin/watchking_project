@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header-wrapper {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #fafafa;
+    color: black;
+}
+
+.row.header-wrapper-navbar {
+    float: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+/* bootstrap에서 제공하는 dropdown arrow을 제거 */
+.dropdown-toggle::after { border: none; }
+
+.second-row {
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container.second-row ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.when-sm-appear {
+    font-size: 1rem;
+}
