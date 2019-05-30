@@ -34,3 +34,51 @@ body {
 .when-sm-appear {
     font-size: 1rem;
 }
+
+li.clone {
+    padding: 0;
+}
+
+/* full screen flexslider */
+.flexslider .slides > li {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: none;
+    -webkit-backface-visibility: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.flexslider-container,
+.flexslider .slides,
+.flex-viewport {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+ul.slides {
+    margin: 0;
+    padding: 0;
+}
+
+.flexslider {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 0px;
+}
+/* full screen flexslider ends here.*/

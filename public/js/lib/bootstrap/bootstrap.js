@@ -616,7 +616,7 @@
     ITEM_IMG: '.carousel-item img',
     NEXT_PREV: '.carousel-item-next, .carousel-item-prev',
     INDICATORS: '.carousel-indicators',
-    DATA_SLIDE: '[data-slide], [data-slide-to]',
+    DATA_SLIDE: '[data-flexslider], [data-flexslider-to]',
     DATA_RIDE: '[data-ride="carousel"]'
   };
   var PointerType = {
@@ -1082,7 +1082,7 @@
 
       var config = _objectSpread({}, $(target).data(), $(this).data());
 
-      var slideIndex = this.getAttribute('data-slide-to');
+      var slideIndex = this.getAttribute('data-flexslider-to');
 
       if (slideIndex) {
         config.interval = false;

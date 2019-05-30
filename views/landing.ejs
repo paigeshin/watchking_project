@@ -1,5 +1,28 @@
 <% include partials/header.ejs %>
 
 
+<script>
+    $(document).ready(function(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            slideshowSpeed:  4000,
+            animationSpeed: 1000
+        });
+    })
+</script>
 
+<!-- Place somewhere in the <body> of your page -->
+<div class="flexslider">
+    <ul class="slides">
+        <li>
+            <img class="img-fluid" src="https://www.1001-montres.fr/modules/anthemeblocks/images/5caeeb5ee4d06.jpg" alt="">
+        </li>
+        <li>
+            <img class="img-fluid" src="https://www.1001-montres.fr/modules/anthemeblocks/images/5c9b47319fb54.jpg" alt="">
+        </li>
+        <li>
+            <img class="img-fluid" src="https://www.1001-montres.fr/modules/anthemeblocks/images/5bc5f51ad962a.jpg" alt="">
+        </li>
+    </ul>
+</div>
 <% include partials/footer.ejs %>
